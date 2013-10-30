@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>1116B152-FD48-47F2-A429-AF5936CCAF77</string>
+	<key>IDESourceControlProjectName</key>
+	<string>CodemashScheduler</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>43E0E595-A2BE-4C86-B1CC-621972E9BA6B</key>
+		<string>https://github.com/cjb5790/CodemashScheduler.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>CodemashScheduler.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>43E0E595-A2BE-4C86-B1CC-621972E9BA6B</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/cjb5790/CodemashScheduler.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>43E0E595-A2BE-4C86-B1CC-621972E9BA6B</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>43E0E595-A2BE-4C86-B1CC-621972E9BA6B</string>
+			<key>IDESourceControlWCCName</key>
+			<string>CodemashScheduler</string>
+		</dict>
+	</array>
+</dict>
+</plist>

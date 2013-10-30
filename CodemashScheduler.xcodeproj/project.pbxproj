@@ -118,6 +118,7 @@
 		383D9B5E18208E96008AF9F4 /* CodemashScheduler */ = {
 			isa = PBXGroup;
 			children = (
+				383D9B99182099FA008AF9F4 /* iPad */,
 				383D9B6718208E96008AF9F4 /* AppDelegate.h */,
 				383D9B6818208E96008AF9F4 /* AppDelegate.m */,
 				383D9B6A18208E96008AF9F4 /* Main.storyboard */,
@@ -160,6 +161,13 @@
 				383D9B8318208E96008AF9F4 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		383D9B99182099FA008AF9F4 /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = iPad;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -392,7 +400,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CodemashScheduler/CodemashScheduler-Prefix.pch";
 				INFOPLIST_FILE = "CodemashScheduler/CodemashScheduler-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -405,7 +415,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CodemashScheduler/CodemashScheduler-Prefix.pch";
 				INFOPLIST_FILE = "CodemashScheduler/CodemashScheduler-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
