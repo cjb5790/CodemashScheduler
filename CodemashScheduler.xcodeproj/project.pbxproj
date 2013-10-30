@@ -22,6 +22,7 @@
 		383D9B7D18208E96008AF9F4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 383D9B5C18208E96008AF9F4 /* UIKit.framework */; };
 		383D9B8518208E96008AF9F4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 383D9B8318208E96008AF9F4 /* InfoPlist.strings */; };
 		383D9B8718208E96008AF9F4 /* CodemashSchedulerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 383D9B8618208E96008AF9F4 /* CodemashSchedulerTests.m */; };
+		383D9B9818209890008AF9F4 /* Session.m in Sources */ = {isa = PBXBuildFile; fileRef = 383D9B9718209890008AF9F4 /* Session.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,8 @@
 		383D9B8218208E96008AF9F4 /* CodemashSchedulerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CodemashSchedulerTests-Info.plist"; sourceTree = "<group>"; };
 		383D9B8418208E96008AF9F4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		383D9B8618208E96008AF9F4 /* CodemashSchedulerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CodemashSchedulerTests.m; sourceTree = "<group>"; };
+		383D9B9618209890008AF9F4 /* Session.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Session.h; sourceTree = "<group>"; };
+		383D9B9718209890008AF9F4 /* Session.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Session.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +127,8 @@
 				383D9B7118208E96008AF9F4 /* DetailViewController.m */,
 				383D9B7318208E96008AF9F4 /* Images.xcassets */,
 				383D9B5F18208E96008AF9F4 /* Supporting Files */,
+				383D9B9618209890008AF9F4 /* Session.h */,
+				383D9B9718209890008AF9F4 /* Session.m */,
 			);
 			path = CodemashScheduler;
 			sourceTree = "<group>";
@@ -254,6 +259,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				383D9B6918208E96008AF9F4 /* AppDelegate.m in Sources */,
+				383D9B9818209890008AF9F4 /* Session.m in Sources */,
 				383D9B6F18208E96008AF9F4 /* MasterViewController.m in Sources */,
 				383D9B6518208E96008AF9F4 /* main.m in Sources */,
 				383D9B7218208E96008AF9F4 /* DetailViewController.m in Sources */,
@@ -465,6 +471,7 @@
 				383D9B8C18208E96008AF9F4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		383D9B8D18208E96008AF9F4 /* Build configuration list for PBXNativeTarget "CodemashSchedulerTests" */ = {
 			isa = XCConfigurationList;
@@ -473,6 +480,7 @@
 				383D9B8F18208E96008AF9F4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
